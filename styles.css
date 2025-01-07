@@ -1,0 +1,93 @@
+*{
+    margin-top: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p{
+    line-height: 25px;
+    color: gray;
+}
+/* header */
+header{
+    background-color: #FFF8F3;
+    background-image: url("header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 50px;
+}
+
+/* nav */
+
+.nav-title{
+    font-size: 50px;
+    font-style: italic;
+}
+.nav-title span{
+    color: tomato;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items li{
+    margin-right: 50px;
+    list-style-type: none;
+}
+.nav-items li a {
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+}
+
+.btn{
+    padding: 15px 15px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* banner */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.banner-title{
+    margin-bottom: 10px;
+}
+.cv-btn{
+    margin-right: 18px;
+}
+.profile-img{
+    width: 500px;
+    background: none;
+}
+/* main */
+/* about me */
+.about-me{
+    background-color: #FFF8F3;
+    text-align: center;
+
+}
+/* .about-me-title{
+   
+} */
