@@ -5,7 +5,8 @@
     margin: 0;
 } */
 *{
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
@@ -67,7 +68,7 @@
   
   .nav-title{
       font-weight:800;
-      font-size: 45px;
+      font-size: 3em;
   }
   
   nav ul{
@@ -170,4 +171,26 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+
+/* responsive */
+/* small device */
+/* hide */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    .skills-container,.resume-container,footer{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    footer input[type="text"],  footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
 }
