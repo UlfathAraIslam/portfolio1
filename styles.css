@@ -122,7 +122,7 @@ main section{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    /* margin-top: 130px; */
 }
 .about-content{
     background: #fff;
@@ -180,7 +180,10 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     display: none;
 }
 @media screen and (max-width:576px){
-    .skills-container,.resume-container,footer{
+    .skills-container,
+    .resume-container,
+    footer, 
+    .about-items{
         /* flex-wrap: wrap; */
         flex-direction: column;
     }
@@ -193,4 +196,8 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     footer input[type="text"],  footer input[type="email"], footer textarea{
         width: calc(100% - 40px);
     }
+    .about{
+        padding: 20px;
+    }
+
 }
